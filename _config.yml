@@ -1,6 +1,0 @@
-repository:
-  url: https://github.com/realprogrammer5000/ACM-Research-Coding-Challenge-F21
-  path_to_book: main.ipynb
-
-launch_buttons:
-  colab_url: "https://colab.research.google.com"
