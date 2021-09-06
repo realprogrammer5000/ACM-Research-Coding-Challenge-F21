@@ -1,5 +1,5 @@
 # My Response to the ACM Research Coding Challenge (Fall 2021)
-Note: the old README file can be found at [README-old.md](README-old.md)
+Note: the old README file can be found at [README-old.md](README-old.md).
 
 ## Code
 This challenge was completed in Python via a Jupyter notebook, [main.ipynb](main.ipynb).
@@ -7,7 +7,7 @@ This challenge was completed in Python via a Jupyter notebook, [main.ipynb](main
 ## Methodology
 In summary, I split the input text into paragraphs, used [NLTK](https://www.nltk.org) to split the paragraphs into sentences, and then used [VADER](https://github.com/cjhutto/vaderSentiment) to analyze the sentiment of each sentence. I found that analyzing each sentence individually yielded more reliable results than analyzing each sentence individually. The scores for each sentence and each paragraph were then averaged together to form a single compound score.
 
-A more detailed explanation of the process and walk-through of my methodology can be found in [the Jupyter notebook](main.ipynb).
+A more detailed explanation of the process and a walk-through of my methodology can be found in [the Jupyter notebook](main.ipynb).
 
 ## Conclusions
 ### Sentiment score of [input.txt](input.txt)
