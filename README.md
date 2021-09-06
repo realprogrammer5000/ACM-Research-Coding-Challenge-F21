@@ -2,7 +2,7 @@
 Note: the old README file can be found at [README-old.md](README-old.md)
 
 ## Code
-This challenge was completed via a Jupyter notebook, [main.ipynb](main.ipynb).
+This challenge was completed in Python via a Jupyter notebook, [main.ipynb](main.ipynb).
 
 ## Methodology
 In summary, I split the input text into paragraphs, used [NLTK](https://www.nltk.org) to split the paragraphs into sentences, and then used [VADER](https://github.com/cjhutto/vaderSentiment) to analyze the sentiment of each sentence. I found that analyzing each sentence individually yielded more reliable results than analyzing each sentence individually. The scores for each sentence and each paragraph were then averaged together to form a single compound score.
